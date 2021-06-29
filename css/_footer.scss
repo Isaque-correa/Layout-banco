@@ -1,0 +1,32 @@
+.footer{
+        
+    &__list{
+        display: flex;
+        
+       li{
+         padding-right: 68px;
+           width: 24px;
+           height: 24px;
+       }
+    }
+    &__embrulho{
+     margin-top: 27px;
+     margin-left: 38px;
+     margin-bottom: 20px;
+     @include desktop{
+         display: none;
+     }
+    }
+    &__copy{
+     @include fontInter;
+     font-size: 12px;
+     text-align: center;
+     margin-top: 6%;
+     background-color: #fafafa;
+     width: 34%;
+     margin-left: 44%;
+     @include mobile{
+         display: none;
+     }
+    }
+}

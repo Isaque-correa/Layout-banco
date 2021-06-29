@@ -1,0 +1,39 @@
+[   
+    
+    {
+        "data": "27/06/2021",
+        "valor": 15,
+        "descrição": "eletronicos"
+      },
+    {
+      "data": "26/06/2021",
+      "valor": 15,
+      "descrição": "eletronicos"
+    },
+    {
+      "data": "25/06/2021",
+      "valor": 150,
+      "descrição": "tenis"
+    },
+    {
+      "data": "24/06/2021",
+      "valor": 1.500,
+      "descrição": "placa de video"
+    },
+    {
+      "data": "23/06/2021",
+      "valor": 20,
+      "descrição": "padaria do zé"
+    },
+    {
+      "data": "22/06/2021",
+      "valor": 60,
+      "descrição": "mercado"
+    },
+    {
+      "data": "21/06/2021",
+      "valor": 40,
+      "descrição": "açougue"
+    }
+    
+  ]

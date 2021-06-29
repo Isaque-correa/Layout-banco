@@ -1,0 +1,56 @@
+.header{
+    margin: 0;
+    padding: 0px;
+    &__nopadding{
+        padding: 0px;
+    }
+    &__section{
+        @include desktop{
+           align-items: center;
+        }
+    }
+    &__botao{
+        @include widthHeight;
+        border-radius: 12px;
+        background-color: #E8F1FD;
+        border: none;
+        margin: 20px 16px 0px 20px;
+        font-size: 0px;
+        
+        @include desktop{
+            @include fontInter;
+            font-size: 14px;
+            width: 30%;
+            color: darkblue;
+            transition: 500ms;
+            &:hover{
+                color: #FAF0EB;
+                background-color: #2F80ED;
+            }
+         }
+        
+    }
+    &__input{
+        width: 223px;
+        height: 40px;
+        border-radius: 12px;
+        background-color: #FAFAFA;
+        border: 1px solid #FAFAFA;
+        @include TopMargin;
+        @include desktop{
+            width: 100%;
+            text-align: center;
+         }
+       // margin-top: 20px;
+    }
+    &__imagem{
+        @include widthHeight;
+        border-radius: 12px;
+        @include TopMargin;
+        margin-left: 16px;
+        @include desktop{
+           float: right;
+        }
+    }
+    
+}

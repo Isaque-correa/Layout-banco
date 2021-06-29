@@ -1,0 +1,63 @@
+.carde{
+    width: 158px;
+    height: 205px;
+    border-radius: 12px;
+    background-color: #FAF0EB;
+    margin-top: 32px;
+    margin-left: 10px;
+    
+    @include desktop{
+        // width: 258px;
+        // height: 305px;
+        margin-left: 19px;
+     }
+    &__titulo{
+        font-size: 12px;
+        color: #E0D6D1;
+        @include fontInter;
+        text-transform: uppercase;
+        margin-top: 41px;
+        margin-left: 20px;
+        @include desktop{
+            font-size: 13px;
+            margin-left: 20px;
+            
+        }
+        
+        
+    }
+    &__numero{
+        font-size: 32px;
+        color: #8F4724;
+        @include fontInter;
+        font-weight: bold;
+        margin-top: 12px;
+        margin-left: 16px;
+        @include desktop{
+            font-size: 33px;
+            margin-left: 20px;
+        }
+    }
+    &__credito{
+        display: flex;
+        @include desktop{
+            margin-left: 20px;
+        }
+    }
+    &__vermelha{
+        width: 24px;
+        height: 24px;
+        background: #ff0000;
+        border-radius: 12px;
+        margin-top: 8px;
+        margin-left: 16px;
+    }
+    &__amarela{
+        width: 24px;
+        height: 24px;
+        background: #FFB800;
+        border-radius: 12px;
+        margin-top: 8px;
+        margin-left: -8px;
+    }
+}
