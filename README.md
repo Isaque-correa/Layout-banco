@@ -1,8 +1,8 @@
 # layout-banco
 
-Uma tela statica de um layout de um banco com graficos de gastos, futuramente adicionarei mais funcionalidade.
+Uma tela estatica de um layout de um banco com graficos de gastos, futuramente adicionarei mais funcionalidade.
 
 ## Conhecimento adquiridos
 
-Este layout fiz com intuido de aprender a desenvolver mais o sass, aprendi um basico com ele exemplo, importar os sass deixando ele divido para melhor a leitura, 
-usar o mixins facilitar em caso de codigos repetido  tambem ultilizando com media quaries, usando a hierarquia do html/sass de uma forma mais limpa a se entender
+Este layout fiz com intuito de aprender a desenvolver mais o sass, obtive o conhecimento basico, por exemplo: importar o sass, dividindo-o em varias parte, ajudando na manutenção, 
+usei mixins que facilita em caso de codigos repetido, tambem ultilizando em media quaries, respeitando a hierarquia do HTML.
